@@ -21,3 +21,7 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+
+//use the connect function to specify which components update due to change in state
+//connect function used to connect component to store -- get data from store's internal state and told to re-render and get new data when state changes
