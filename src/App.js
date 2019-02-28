@@ -22,6 +22,9 @@ class App extends Component {
   }
 };
 
+
+
+//start of code change
 const mapStateToProps = (state) => {
   return { items: state.items }
 }
@@ -29,3 +32,4 @@ const mapStateToProps = (state) => {
 export default connect(
   mapStateToProps
 ) (App);
+//end of code change
